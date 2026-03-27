@@ -56,8 +56,12 @@ export default function Home() {
           <div className="rounded-[30px] bg-white p-6 shadow-2xl ring-1 ring-rose-100">
             <div className="rounded-[24px] bg-gradient-to-br from-rose-100 to-fuchsia-100 p-8 text-center">
               
- <div className="mx-auto h-28 w-28 flex items-center justify-center rounded-full bg-pink-100 text-2xl font-bold text-pink-600 shadow-lg">
-  RK
+ <div className="mx-auto h-28 w-28 overflow-hidden rounded-full shadow-lg">
+  <img
+    src="/logo.jpg"
+    alt="logo"
+    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+  />
 </div>
 
               <h2 className="mt-6 text-3xl font-bold">Rahma Kalai</h2>
