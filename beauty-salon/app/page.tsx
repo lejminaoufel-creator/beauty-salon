@@ -159,7 +159,29 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
+      </section>{/* GOOGLE MAPS */}
+<section className="mx-auto max-w-6xl px-6 py-12 text-center">
+  <h2 className="mb-6 text-2xl font-bold">Notre localisation</h2>
+
+  <div className="overflow-hidden rounded-2xl shadow-lg">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d839.7014434160645!2d10.71623365799719!3d35.754603086558205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13020d0052d48ae3%3A0x42c4ea98681414e2!2sBeautysalon_byRahmaKalai!5e0!3m2!1sde!2sde!4v1774605885874!5m2!1sde!2sde"
+      width="100%"
+      height="350"
+      style={{ border: 0 }}
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+
+  <a
+    href="https://maps.app.goo.gl/Roi8G8eHRkKjyiZT9"
+    target="_blank"
+    className="mt-6 inline-block rounded-xl bg-pink-600 px-6 py-3 text-white font-semibold shadow-lg"
+  >
+    Ouvrir dans Google Maps
+  </a>
+</section>
     </main>
   );
 }
